@@ -165,6 +165,12 @@ h6::selection
 {
 	
 }
+
+h5 {
+	color: red;
+	font-weight: bolder;
+}
+
 .form-control
 {
 	color: #db5246;
@@ -918,14 +924,29 @@ section
 {
 	margin-top: 98px;
 }
-.product
+.product-subtitle
 {
-
+	color: #d9d5d5;
+	font-style: italic;
+	font-weight: bolder;
 }
 .product_image
 {
 	width: 100%;
 }
+.product-page-price {
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.product-price {
+	padding: 10px;
+	font-family: monospace;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+
 .product_image img
 {
 	max-width: 100%;
@@ -1542,4 +1563,18 @@ section
 
 span {
 	color: red;
+}
+
+.titleshow {
+	font-weight: bolder;
+	color: red;
+}
+
+.showdesc {
+	color: #ffff;
+}
+
+.subtitleshow {
+	font-style: italic;
+	font-weight: bolder;
 }
